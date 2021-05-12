@@ -1,0 +1,12 @@
+[package]
+name = "o-slash"
+version = "0.1.0"
+authors = ["Togglebit <me@togglebit.io>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.125", features = ["derive"] }
+thiserror = "1.0.24"
+tokio = { version = "1.5.0", features = ["full"] }
