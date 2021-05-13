@@ -5,9 +5,8 @@ use tokio::net::TcpStream;
 use tokio::sync::mpsc;
 
 use crate::errors::Result;
+use super::{Rx, Tx};
 
-pub type Rx = mpsc::Receiver<String>;
-pub type Tx = mpsc::Sender<String>;
 
 // -----------------------------------------------------------------------------
 //     - Reader -
